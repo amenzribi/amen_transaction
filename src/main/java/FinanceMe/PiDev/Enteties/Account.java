@@ -21,6 +21,8 @@ public class Account implements Serializable {
     private Integer IdAccount;
     private Long Balance;
     private Date DateOpened;
+    @ManyToOne
+    User user;
 
     @Override
     public String toString() {

@@ -6,6 +6,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -28,7 +29,8 @@ public class User implements Serializable {
     private Integer PostalCode;
     private String Email;
     private String PhoneNumber;
-
+    @OneToMany(cascade = CascadeType.ALL, mappedBy="User")
+    private Set<Account> Account;
     @Override
     public String toString() {
         return "User{" +
