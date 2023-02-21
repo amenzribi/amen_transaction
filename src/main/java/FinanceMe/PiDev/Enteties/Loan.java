@@ -17,8 +17,8 @@ public class Loan implements Serializable {
     @Id
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_loan" , updatable = false)
-    private Long id_loan;
+    @Column(name = "id_loan" )
+    private Integer id_loan;
 
     private float amount;
     private Date credit_start_date;

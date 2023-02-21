@@ -11,13 +11,13 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @Entity
-@Table( name = "Offer")
+@Table( name = "Donation")
 public class Donation implements Serializable {
     @Id
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_donation" , updatable = false)
-    private Long id_donation;
+    @Column(name = "id_donation" )
+    private Integer id_donation;
 
     private float amount;
 
