@@ -1,43 +1,82 @@
 package FinanceMe.PiDev.Enteties;
+
+import com.zaxxer.hikari.util.FastList;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDateTime;
 
-
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
-@NoArgsConstructor
-@Entity
-@Table( name = "Transaction")
 public class Transaction implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "IdTransaction")
-    private Integer IdTransaction;
-    private Float Amount;
-    private Date DateTransaction;
+    private Long id ;
+    private float montant;
+
+    private LocalDateTime date;
+    private String type_transaction ;
+    @Column(name = "validation_code")
+    private String validationCode;
+/*
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "compteSrcId" )
+    private Compte compte;
+
+ */
+    @ManyToOne(fetch = FetchType.LAZY)
+   // @JoinColumn(name = "idcompte_s")
+    private Compte compteEmetteur;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+   // @JoinColumn(name = "idcompte_r")
+    private Compte compteDestinataire;
+/*
+@ManyToOne(fetch = FetchType.LAZY)
+
+@JoinColumn(name = "compteSrcId" )
+  private Compte  compteSrc;
+
+ */
+
+/*
+@ManyToOne(fetch = FetchType.LAZY)
+@JoinColumn(name = "compteDestId")
+private Compte compteDest;
+
+ */
 
     @Override
     public String toString() {
         return "Transaction{" +
-                "IdTransaction=" + IdTransaction +
-                ", Amount=" + Amount +
-                ", DateTransaction=" + DateTransaction +
-                ", Devise='" + Devise + '\'' +
-                ", Type='" + Type + '\'' +
-                ", Status='" + Status + '\'' +
-                ", PaymentMethod='" + PaymentMethod + '\'' +
-                ", Mode='" + Mode + '\'' +
+                "id=" + id +
+                ", montant=" + montant +
+                ", date=" + date +
+                ", type_transaction='" + type_transaction + '\'' +
+                ", validationCode='" + validationCode + '\'' +
+                ", compteEmetteur=" + compteEmetteur +
+                ", compteDestinataire=" + compteDestinataire +
                 '}';
     }
 
-    private String Devise;
-    private String Type;
-    private String Status;
-    private String PaymentMethod;
-    private String Mode;
+    /*
+
+    @Override
+    public String toString() {
+        return "Transaction{" +
+                "id=" + id +
+                ", montant=" + montant +
+                ", date=" + date +
+                ", compte=" + compte +
+                '}';
+    }
+
+ */
 }
