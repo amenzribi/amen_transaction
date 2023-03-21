@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Properties;
 import java.util.Random;
+import java.util.UUID;
 
 @Service
 public class TransactionService {
@@ -61,8 +62,8 @@ public class TransactionService {
 
     @Autowired
     private TransactionRepository transactionRepository;
-    @Autowired
-    private EmailService emailService;
+   @Autowired
+   private EmailService emailService;
 /*
     public void sendConfirmationEmail(String recipientEmail, String validationCode) {
         String subject = "Confirmation de transaction bancaire";
@@ -138,14 +139,41 @@ public class TransactionService {
 
           */
 
-    public String generateValidationCode() {
-        Random random = new Random();
-        int code = random.nextInt(100000000);
-        return String.format("%08d", code);
-    }
+//    public String generateValidationCode() {
+//        Random random = new Random();
+//        int code = random.nextInt(100000000);
+//        return String.format("%08d", code);
+//    }
 
 
+//    @Autowired
+//    private EmailService emailService;
+//
+//    public Transaction validerTransactionParEmail(Transaction transaction) {
+//        // Générer un code de validation unique
+//        String codeValidation = generateValidationCode();
+//      //  String email =  compte.getEmail();
+//
+//        // Envoyer un e-mail avec le code de validation
+//        String subject = "Validation de la transaction #" + transaction.getId();
+//        String message = "Votre code de validation est : " + codeValidation;
+//        emailService.sendSimpleMessage(email, subject, message);
+//
+//        // Mettre à jour l'état de la transaction en "en attente de validation"
+//        transaction.setEtatTransaction(EtatTransaction.EN_ATTENTE_DE_VALIDATION);
+//        transaction.setValidationCode(codeValidation);
+//
+//        // Sauvegarder la transaction dans la base de données
+//        return transactionRepository.save(transaction);
+//    }
+//
+//    private String generateValidationCode() {
+//        // Générer un code de validation unique
+//        return UUID.randomUUID().toString().substring(0, 6).toUpperCase();
+//    }
 
+
+/*
 
     @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
     public void depot(Long compteDestinataire, float montant , String type_transaction) throws Exception {
@@ -158,15 +186,113 @@ public class TransactionService {
         transaction.setMontant(montant);
         transaction.setDate(LocalDateTime.now());
         transaction.setType_transaction(type_transaction);
-        String validationCode = generateValidationCode(); // Générer le code de validation
-        transaction.setValidationCode(validationCode);
-        transactionRepository.save(transaction);
-
+        transaction.setEtat("En attente de validation");
         String to = compte.getEmail();
         String subject = "Transaction validation code";
-        String text = "Your transaction validation code is: " + generateValidationCode();
+        String code = UUID.randomUUID().toString().substring(0, 6);
+        String text = "Your transaction validation code is: " + code;
         emailService.sendEmail(to, subject, text);
+        transactionRepository.save(transaction);
+
     }
+    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+    public void validerTransaction(Long transactionId, String codeValidation) throws Exception {
+        Transaction transaction = transactionRepository.findById(transactionId).orElseThrow(() -> new Exception("Transaction non trouvée"));
+        if (!transaction.getEtat().equals("En attente de validation")) { //Vérifier si la transaction est en attente de validation
+            throw new Exception("La transaction ne peut pas être validée car elle n'est pas en attente de validation");
+        }
+        if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
+            throw new Exception("Le code de validation est incorrect");
+        }
+        transaction.setEtat("Validé"); //Mettre à jour l'état de la transaction en "Validé"
+        transaction.setEtat("Validé"); // Mettre à jour l'état de la transaction en "Validé"
+        transactionRepository.save(transaction);
+
+        Compte compteDestinataire = transaction.getCompteDestinataire();
+        float solde = compteDestinataire.getSolde() + transaction.getMontant();
+        compteDestinataire.setSolde(solde);
+        compteRepository.save(compteDestinataire);
+
+
+        transactionRepository.save(transaction);
+    }
+    the origin code with simple mail
+ */
+
+//        String validationCode = generateValidationCode(); // Générer le code de validation
+//        transaction.setValidationCode(validationCode);
+//        transactionRepository.save(transaction);
+//        emailService.sendSimpleMessage(email, "Transaction validée", "Votre dépôt de " + montant + " a été validé.");
+
+
+    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+    public void depot(Long compteDestinataire, float montant, String type_transaction) throws Exception {
+        Compte compte = compteRepository.findById(compteDestinataire)
+                .orElseThrow(() -> new Exception("Compte non trouvé"));
+        float solde = compte.getSolde() + montant;
+        compte.setSolde(solde);
+        compteRepository.save(compte);
+        Transaction transaction = new Transaction();
+        transaction.setCompteDestinataire(compte);
+        transaction.setMontant(montant);
+        transaction.setDate(LocalDateTime.now());
+        transaction.setType_transaction(type_transaction);
+        transaction.setEtat("En attente de validation");
+        String to = compte.getEmail();
+        String subject = "Transaction validation code";
+        String code = UUID.randomUUID().toString().substring(0, 6);
+        String text = "Your transaction validation code is: " + code;
+        emailService.sendEmail(to, subject, text);
+        transaction.setValidationCode(code); // Save validation code in transaction
+        transactionRepository.save(transaction);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+    public void validerTransaction(Long transactionId, String codeValidation) throws Exception {
+        Transaction transaction = transactionRepository.findById(transactionId)
+                .orElseThrow(() -> new Exception("Transaction non trouvée"));
+        if (!transaction.getEtat().equals("En attente de validation")) { //Vérifier si la transaction est en attente de validation
+            throw new Exception("La transaction ne peut pas être validée car elle n'est pas en attente de validation");
+        }
+        if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
+            throw new Exception("Le code de validation est incorrect");
+        }
+        transaction.setEtat("Transaction is validated"); // Mettre à jour l'état de la transaction en "Transaction is validated"
+        transactionRepository.save(transaction);
+
+        Compte compteDestinataire = transaction.getCompteDestinataire();
+        float solde = compteDestinataire.getSolde() + transaction.getMontant();
+        compteDestinataire.setSolde(solde);
+        compteRepository.save(compteDestinataire);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
@@ -240,6 +366,11 @@ public void transfert(Long compteEmetteur, Long compteDestinataire,  float monta
 }
 
 
+
+
+
+
+
     public List<Transaction>findAllTransaction(){
     return transactionRepository.findAll();
     }
@@ -247,7 +378,7 @@ public void transfert(Long compteEmetteur, Long compteDestinataire,  float monta
     public Transaction findTransactionById(Long id){
     return transactionRepository.findTransactionById(id);
     }
-public void deleteTransactionById(Long id){
+    public void deleteTransactionById(Long id){
     transactionRepository.deleteById(id);
 }
 }

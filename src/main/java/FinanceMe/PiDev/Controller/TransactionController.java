@@ -1,6 +1,8 @@
 
 package FinanceMe.PiDev.Controller;
 
+import FinanceMe.PiDev.DTO.DepositRequest;
+import FinanceMe.PiDev.DTO.ValidationRequest;
 import FinanceMe.PiDev.Enteties.Transaction;
 import FinanceMe.PiDev.Repository.CompteRepository;
 import FinanceMe.PiDev.Services.TransactionService;
@@ -18,6 +20,8 @@ public class TransactionController {
     private TransactionService transactionService;
     private CompteRepository compteRepository;
 
+
+    /*
     @PostMapping("/depot")
     public ResponseEntity<?> depot(@RequestParam Long compteDestinataire, @RequestParam float montant , @RequestParam String type_transaction) {
         try {
@@ -27,6 +31,59 @@ public class TransactionController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
     }
+    @PutMapping("/validation")
+    public ResponseEntity<String> validerTransaction(@RequestParam Long transactionId, @RequestParam String codeValidation) {
+        try {
+            transactionService.validerTransaction(transactionId, codeValidation);
+            return ResponseEntity.ok("Transaction validée avec succès");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
+    }
+    origin code
+     */
+
+
+    @PostMapping("/deposit")
+    public ResponseEntity<?> depot(@RequestBody DepositRequest depositRequest) {
+        try {
+            transactionService.depot(depositRequest.getCompteDestinataire(), depositRequest.getMontant(), "Dépôt");
+            return ResponseEntity.ok("Transaction en attente de validation");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
+    @PostMapping("/validate")
+    public ResponseEntity<?> validerTransaction(@RequestBody ValidationRequest validationRequest) {
+        try {
+            transactionService.validerTransaction(validationRequest.getTransactionId(), validationRequest.getValidationCode());
+            return ResponseEntity.ok("Transaction validée");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @PostMapping("/retrait")
     public ResponseEntity<?> retrait(@RequestParam Long compteDestinataire, @RequestParam float montant , @RequestParam String type_transaction) {

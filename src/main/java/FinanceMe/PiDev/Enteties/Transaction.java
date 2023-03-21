@@ -25,6 +25,11 @@ public class Transaction implements Serializable {
     private String type_transaction ;
     @Column(name = "validation_code")
     private String validationCode;
+    private String etat;
+
+//    @Enumerated(EnumType.STRING)
+//    @Column(name = "etat_transaction")
+//    private EtatTransaction etatTransaction;
 /*
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "compteSrcId" )
