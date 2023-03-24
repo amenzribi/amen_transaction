@@ -1,5 +1,4 @@
-package FinanceMe.PiDev.DTO;
-
+import com.sun.istack.internal.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,21 +9,19 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ValidationRequest {
-//    @NotNull(message = "Transaction ID cannot be null")
+public class ValidationWithdrawRequest {
+  //  @NotNull
     private Long transactionId;
-//    @NotBlank(message = "Validation code cannot be blank")
-//    @Size(min = 6, max = 6, message = "Validation code must be 6 characters long")
-    private String validationCode ;//= UUID.randomUUID().toString().substring(0, 6);
 
-//    public ValidationRequest() {
+//    @NotNull
+//    @Size(min = 6, max = 6)
+    private String validationCode ;// = UUID.randomUUID().toString().substring(0, 6);
+//    public ValidationWithdrawRequest() {
 //    }
-//
-//    public ValidationRequest(Long transactionId, String validationCode) {
+//    public ValidationWithdrawRequest(Long transactionId, String validationCode) {
 //        this.transactionId = transactionId;
 //        this.validationCode = validationCode;
 //    }
-//
 //    public Long getTransactionId() {
 //        return transactionId;
 //    }

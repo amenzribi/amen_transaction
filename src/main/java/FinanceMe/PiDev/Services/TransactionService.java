@@ -12,11 +12,13 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityNotFoundException;
 import javax.websocket.Session;
 import java.net.PasswordAuthentication;
+import java.security.SecureRandom;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Properties;
 import java.util.Random;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Service
 public class TransactionService {
@@ -240,56 +242,24 @@ public class TransactionService {
         transaction.setEtat("En attente de validation");
         String to = compte.getEmail();
         String subject = "Transaction validation code";
-        String code = UUID.randomUUID().toString().substring(0, 6);
+
+
+        String code = new SecureRandom().ints(6, 0, 36)
+                .mapToObj(i -> Integer.toString(i, 36))
+                .collect(Collectors.joining())
+                .toUpperCase();     //String code =     //UUID.randomUUID().toString().substring(0, 6);
         String text = "Your transaction validation code is: " + code;
         emailService.sendEmail(to, subject, text);
         transaction.setValidationCode(code); // Save validation code in transaction
         transactionRepository.save(transaction);
     }
 
-    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
-    public void validerTransaction(Long transactionId, String codeValidation) throws Exception {
-        Transaction transaction = transactionRepository.findById(transactionId)
-                .orElseThrow(() -> new Exception("Transaction non trouvée"));
-        if (!transaction.getEtat().equals("En attente de validation")) { //Vérifier si la transaction est en attente de validation
-            throw new Exception("La transaction ne peut pas être validée car elle n'est pas en attente de validation");
-        }
-        if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
-            throw new Exception("Le code de validation est incorrect");
-        }
-        transaction.setEtat("Transaction is validated"); // Mettre à jour l'état de la transaction en "Transaction is validated"
-        transactionRepository.save(transaction);
-
-        Compte compteDestinataire = transaction.getCompteDestinataire();
-        float solde = compteDestinataire.getSolde() + transaction.getMontant();
-        compteDestinataire.setSolde(solde);
-        compteRepository.save(compteDestinataire);
-    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//        Compte compteDestinataire = transaction.getCompteDestinataire();
+//        float solde = compteDestinataire.getSolde() + transaction.getMontant();
+//        compteDestinataire.setSolde(solde);
+//        compteRepository.save(compteDestinataire);
 
 
 
@@ -309,8 +279,66 @@ public class TransactionService {
         transaction.setMontant(-montant);
         transaction.setDate(LocalDateTime.now());
         transaction.setType_transaction(type_transaction);
+        transaction.setEtat("En attente de validation");
+        String to = compte.getEmail();
+        String subject = "Transaction validation code";
+
+        String code = new SecureRandom().ints(6, 0, 36)
+                .mapToObj(i -> Integer.toString(i, 36))
+                .collect(Collectors.joining())
+                .toUpperCase();
+        String text = "Your transaction validation code is: " + code;
+        emailService.sendEmail(to, subject, text);
+        transaction.setValidationCode(code); // Save validation code in transaction
+
         transactionRepository.save(transaction);
     }
+//    private  final String TRANSACTION_STATE_PENDING = "En attente de validation";
+//    private  final String TRANSACTION_STATE_VALIDATED = "Transaction validée";
+//    private  final String TRANSACTION_STATE_CANCELLED = "Transaction annulée";
+
+//    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+//    public void validerTransactionretrait(Long transactionId, String codeValidation) throws Exception {
+//        Transaction transaction = transactionRepository.findById(transactionId)
+//                .orElseThrow(() -> new Exception("Transaction non trouvée"));
+//        if (!transaction.getEtat().equals("En attente de validation")) { //Vérifier si la transaction est en attente de validation
+//            throw new Exception("La transaction ne peut pas être validée car elle n'est pas en attente de validation");
+//        }
+//        if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
+//            throw new Exception("Le code de validation est incorrect");
+//        }
+//        transaction.setEtat("Transaction is validated"); // Mettre à jour l'état de la transaction en "Transaction is validated"
+//        transactionRepository.save(transaction);
+//
+//        Compte compteDestinataire = transaction.getCompteDestinataire();
+//        float solde = compteDestinataire.getSolde() - transaction.getMontant();
+//        compteDestinataire.setSolde(solde);
+//        compteRepository.save(compteDestinataire);
+//    }
+
+
+    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+    public void validerTransaction(Long transactionId, String codeValidation) throws Exception {
+        Transaction transaction = transactionRepository.findById(transactionId)
+                .orElseThrow(() -> new Exception("Transaction non trouvée"));
+        if (!transaction.getEtat().equals("En attente de validation")) { //Vérifier si la transaction est en attente de validation
+            throw new Exception("La transaction ne peut pas être validée car elle n'est pas en attente de validation");
+        }
+        if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
+            throw new Exception("Le code de validation est incorrect");
+        }
+        transaction.setEtat("Transaction is validated"); // Mettre à jour l'état de la transaction en "Transaction is validated"
+        transactionRepository.save(transaction);
+
+//        Compte compteDestinataire = transaction.getCompteDestinataire();
+//        float solde = compteDestinataire.getSolde() + transaction.getMontant();
+//        compteDestinataire.setSolde(solde);
+//        compteRepository.save(compteDestinataire);
+    }
+
+
+
+
 /*
     @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
     public void transfert(Long compte_r, Long compte_s, float montant) throws Exception {
@@ -362,8 +390,39 @@ public void transfert(Long compteEmetteur, Long compteDestinataire,  float monta
     transactionDest.setMontant(montant);
     transactionDest.setDate(LocalDateTime.now());
     transactionDest.setType_transaction(type_transaction);
+
+
+
+
+    // send email notification to the sender
+    String to = compteEmmetteur.getEmail();// getClient().getEmail();
+    String senderName = compteEmmetteur.getNom();
+//    String recipientEmail = compteDestinataire.getNom(); here i can create Query to bring the name of the recipient
+//    String recipientName = compteDestinataire.getNom();
+    String subject = "Transfer successful";
+    String code = new SecureRandom().ints(6, 0, 36)
+            .mapToObj(i -> Integer.toString(i, 36))
+            .collect(Collectors.joining())
+            .toUpperCase();
+    String text = "Dear " + senderName + ",\n\nYour transfer of " + montant + " has been successful. \n\nThank you for using our banking services.\n\nBest regards,\nBank XYZ";
+    emailService.sendEmail(to, subject, text);
+    transactionDest.setValidationCode(code);
     transactionRepository.save(transactionDest);
 }
+
+   // String to = compte.getEmail();
+   // String subject = "Transaction validation code";
+
+
+
+
+
+
+
+
+
+
+
 
 
 

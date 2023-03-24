@@ -1,23 +1,27 @@
 package FinanceMe.PiDev.DTO;
 
+import com.sun.istack.internal.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public  class DepositRequest {
+
+public class WithdrawRequest {
     private Long compteDestinataire;
+//    @NotNull
+//    @Positive
     private float montant;
     private String typeTransaction;
 
-//    public DepositRequest() {
+
+//    public WithdrawRequest() {
 //    }
 //
-//    public DepositRequest(Long compteDestinataire, float montant, String typeTransaction) {
+//    public WithdrawRequest(Long compteDestinataire, float montant, String typeTransaction) {
 //        this.compteDestinataire = compteDestinataire;
 //        this.montant = montant;
 //        this.typeTransaction = typeTransaction;

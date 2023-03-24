@@ -3,6 +3,7 @@ package FinanceMe.PiDev.Controller;
 
 import FinanceMe.PiDev.DTO.DepositRequest;
 import FinanceMe.PiDev.DTO.ValidationRequest;
+import FinanceMe.PiDev.DTO.WithdrawRequest;
 import FinanceMe.PiDev.Enteties.Transaction;
 import FinanceMe.PiDev.Repository.CompteRepository;
 import FinanceMe.PiDev.Services.TransactionService;
@@ -47,18 +48,43 @@ public class TransactionController {
     @PostMapping("/deposit")
     public ResponseEntity<?> depot(@RequestBody DepositRequest depositRequest) {
         try {
-            transactionService.depot(depositRequest.getCompteDestinataire(), depositRequest.getMontant(), "Dépôt");
-            return ResponseEntity.ok("Transaction en attente de validation");
+            transactionService.depot(depositRequest.getCompteDestinataire(), depositRequest.getMontant(), "Deposit");
+            return ResponseEntity.ok("Transaction created successfully and waiting for validation.");
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
+
+
+
+
+    @PostMapping("/withdraw")
+    public ResponseEntity<?> retrait(@RequestBody WithdrawRequest withdrawRequest ) {
+        try {
+            transactionService.retrait(withdrawRequest.getCompteDestinataire(), withdrawRequest.getMontant(), "Withdraw");
+            return ResponseEntity.ok("Transaction created successfully and waiting for validation.");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+//
+//    @PostMapping("/validateWithdraw")
+//    public ResponseEntity<?> validerTransactionretrait(@RequestBody ValidationWithdrawRequest validationWithdrawRequest  ) {
+//        try {
+//            transactionService.validerTransactionretrait(validationWithdrawRequest.getTransactionId(), validationWithdrawRequest.getValidationCode());
+//            return ResponseEntity.ok("Transaction validated successfully.");
+//        } catch (Exception e) {
+//            return ResponseEntity.badRequest().body(e.getMessage());
+//        }
+//    }
+
+
 
     @PostMapping("/validate")
     public ResponseEntity<?> validerTransaction(@RequestBody ValidationRequest validationRequest) {
         try {
             transactionService.validerTransaction(validationRequest.getTransactionId(), validationRequest.getValidationCode());
-            return ResponseEntity.ok("Transaction validée");
+            return ResponseEntity.ok("Transaction validated successfully.");
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
@@ -78,22 +104,15 @@ public class TransactionController {
 
 
 
-
-
-
-
-
-
-
-    @PostMapping("/retrait")
-    public ResponseEntity<?> retrait(@RequestParam Long compteDestinataire, @RequestParam float montant , @RequestParam String type_transaction) {
-        try {
-            transactionService.retrait(compteDestinataire, montant, type_transaction);
-            return ResponseEntity.ok().build();
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
-        }
-    }
+//    @PostMapping("/retrait")
+//    public ResponseEntity<?> retrait(@RequestParam Long compteDestinataire, @RequestParam float montant , @RequestParam String type_transaction) {
+//        try {
+//            transactionService.retrait(compteDestinataire, montant, type_transaction);
+//            return ResponseEntity.ok().build();
+//        } catch (Exception e) {
+//            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+//        }
+//    }
 
     @PostMapping("/transfert")
     public ResponseEntity<?> transfert(@RequestParam Long compteEmetteur, @RequestParam Long compteDestinataire, @RequestParam float montant , @RequestParam String type_transaction) {

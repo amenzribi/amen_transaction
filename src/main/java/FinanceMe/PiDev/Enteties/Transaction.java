@@ -23,7 +23,7 @@ public class Transaction implements Serializable {
 
     private LocalDateTime date;
     private String type_transaction ;
-    @Column(name = "validation_code")
+    //@Column(name = "validation_code")
     private String validationCode;
     private String etat;
 
