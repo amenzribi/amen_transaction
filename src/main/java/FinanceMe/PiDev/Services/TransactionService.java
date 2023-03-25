@@ -366,6 +366,7 @@ public class TransactionService {
     }
 
  */
+
 @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
 public void transfert(Long compteEmetteur, Long compteDestinataire,  float montant , String type_transaction) throws Exception {
     Compte compteEmmetteur = compteRepository.findById(compteEmetteur).orElseThrow(() -> new Exception("Compte source non trouvé"));
@@ -384,13 +385,15 @@ public void transfert(Long compteEmetteur, Long compteDestinataire,  float monta
     transactionSrc.setMontant(-montant);
     transactionSrc.setDate(LocalDateTime.now());
     transactionSrc.setType_transaction(type_transaction);
+    transactionSrc.setEtat("En attente de validation");
     transactionRepository.save(transactionSrc);
     Transaction transactionDest = new Transaction();
     transactionDest.setCompteDestinataire(compteDesstinataire);
     transactionDest.setMontant(montant);
     transactionDest.setDate(LocalDateTime.now());
     transactionDest.setType_transaction(type_transaction);
-
+   // transactionDest.setEtat(transactionSrc.getEtat());
+    transactionRepository.save(transactionDest);
 
 
 
@@ -398,16 +401,22 @@ public void transfert(Long compteEmetteur, Long compteDestinataire,  float monta
     String to = compteEmmetteur.getEmail();// getClient().getEmail();
     String senderName = compteEmmetteur.getNom();
 //    String recipientEmail = compteDestinataire.getNom(); here i can create Query to bring the name of the recipient
-//    String recipientName = compteDestinataire.getNom();
+   String recipientName = compteDesstinataire.getNom();
     String subject = "Transfer successful";
     String code = new SecureRandom().ints(6, 0, 36)
             .mapToObj(i -> Integer.toString(i, 36))
             .collect(Collectors.joining())
             .toUpperCase();
-    String text = "Dear " + senderName + ",\n\nYour transfer of " + montant + " has been successful. \n\nThank you for using our banking services.\n\nBest regards,\nBank XYZ";
+    String text = "Dear " + senderName + ",\n\nYour transfer of " + montant + " To " + recipientName + "has been successful. \n\nThank you for using our banking services.\n\nBest regards,\nBank XYZ";
     emailService.sendEmail(to, subject, text);
-    transactionDest.setValidationCode(code);
-    transactionRepository.save(transactionDest);
+    transactionSrc.setValidationCode(code);
+
+
+
+
+
+
+
 }
 
    // String to = compte.getEmail();
