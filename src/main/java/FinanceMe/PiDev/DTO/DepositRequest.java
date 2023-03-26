@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -13,6 +15,9 @@ public  class DepositRequest {
     private Long compteDestinataire;
     private float montant;
     private String typeTransaction;
+    private LocalDateTime tempsValidation;
+
+}
 
 //    public DepositRequest() {
 //    }
@@ -46,4 +51,3 @@ public  class DepositRequest {
 //    public void setTypeTransaction(String typeTransaction) {
 //        this.typeTransaction = typeTransaction;
 //    }
-}

@@ -28,6 +28,20 @@ public class IEmailService implements EmailService{
             throw new MailSendException("Failed to send email", e);
         }
     }
+
+    @Override
+    public void sendMail(String A, String body, String words) {
+        MimeMessage message = mailSender.createMimeMessage();
+        try {
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
+            helper.setTo(A);
+            helper.setSubject(body);
+            helper.setText(words, true);
+            mailSender.send(message);
+        } catch (MessagingException e) {
+            throw new MailSendException("Failed to send email", e);
+        }
+    }
 }
 
 

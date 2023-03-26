@@ -7,12 +7,16 @@ import FinanceMe.PiDev.DTO.ValidationRequest;
 import FinanceMe.PiDev.DTO.WithdrawRequest;
 import FinanceMe.PiDev.Enteties.Transaction;
 import FinanceMe.PiDev.Repository.CompteRepository;
+import FinanceMe.PiDev.Repository.TransactionRepository;
 import FinanceMe.PiDev.Services.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -21,6 +25,8 @@ public class TransactionController {
     @Autowired
     private TransactionService transactionService;
     private CompteRepository compteRepository;
+    @Autowired
+    TransactionRepository transactionRepository;
 
 
     /*
@@ -51,6 +57,16 @@ public class TransactionController {
         try {
             transactionService.depot(depositRequest.getCompteDestinataire(), depositRequest.getMontant(), "Deposit");
             return ResponseEntity.ok("Transaction created successfully and waiting for validation.");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
+    @PostMapping("/validate")
+    public ResponseEntity<?> validerTransaction(@RequestBody ValidationRequest validationRequest) {
+        try {
+            transactionService.validerTransaction(validationRequest.getTransactionId(), validationRequest.getValidationCode());
+            return ResponseEntity.ok("Transaction validated successfully.");
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
@@ -135,15 +151,9 @@ public class TransactionController {
 
    */
 
-    @PostMapping("/validate")
-    public ResponseEntity<?> validerTransaction(@RequestBody ValidationRequest validationRequest) {
-        try {
-            transactionService.validerTransaction(validationRequest.getTransactionId(), validationRequest.getValidationCode());
-            return ResponseEntity.ok("Transaction validated successfully.");
-        } catch (Exception e) {
-            return ResponseEntity.badRequest().body(e.getMessage());
-        }
-    }
+
+
+
 
     @GetMapping("/all_transactions")
     public ResponseEntity<List<Transaction>> findAllTransaction() {

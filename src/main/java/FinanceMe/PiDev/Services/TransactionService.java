@@ -5,6 +5,7 @@ import FinanceMe.PiDev.Enteties.Transaction;
 import FinanceMe.PiDev.Repository.CompteRepository;
 import FinanceMe.PiDev.Repository.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,12 +14,16 @@ import javax.persistence.EntityNotFoundException;
 import javax.websocket.Session;
 import java.net.PasswordAuthentication;
 import java.security.SecureRandom;
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Properties;
 import java.util.Random;
 import java.util.UUID;
 import java.util.stream.Collectors;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 @Service
 public class TransactionService {
@@ -58,6 +63,7 @@ public class TransactionService {
         }
     }
 */
+private  final Logger logger = LogManager.getLogger(TransactionService.class);
 
     @Autowired
     private CompteRepository compteRepository;
@@ -240,6 +246,7 @@ public class TransactionService {
         transaction.setDate(LocalDateTime.now());
         transaction.setType_transaction(type_transaction);
         transaction.setEtat("En attente de validation");
+
         String to = compte.getEmail();
         String subject = "Transaction validation code";
 
@@ -253,13 +260,46 @@ public class TransactionService {
         transaction.setValidationCode(code); // Save validation code in transaction
         transactionRepository.save(transaction);
     }
+    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+    public void validerTransaction(Long transactionId, String codeValidation) throws Exception {
+        Transaction transaction = transactionRepository.findById(transactionId)
+                .orElseThrow(() -> new Exception("Transaction non trouvée"));
+        if (!transaction.getValidationCode().equals(codeValidation) || transaction.getDate().plusDays(1).isBefore(LocalDateTime.now())) { //Vérifier si la transaction est en attente de validation
+            transaction.setEtat("Transaction is canceled");
+            transactionRepository.save(transaction);
+            throw new Exception("La transaction a été annulée car le code de validation est incorrect ou le temps de validation a dépassé 1 jour");
+        }
+        if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
+            throw new Exception("Le code de validation est incorrect");
+        }
+        transaction.setEtat("Transaction is validated"); // Mettre à jour l'état de la transaction en "Transaction is validated"
+        transactionRepository.save(transaction);
 
 
+    }
 
-//        Compte compteDestinataire = transaction.getCompteDestinataire();
-//        float solde = compteDestinataire.getSolde() + transaction.getMontant();
-//        compteDestinataire.setSolde(solde);
-//        compteRepository.save(compteDestinataire);
+    @Scheduled(cron = "0 0 0 * * ?") // Appelé tous les jours (24 heures) exécuter la méthode à minuit tous les jours.
+    public void annulerTransactionsExpirées() {
+        try {
+            List<Transaction> transactionsEnAttente = transactionRepository.findByEtat("En attente de validation");
+            for (Transaction transaction : transactionsEnAttente) {
+                LocalDateTime maintenant = LocalDateTime.now();
+                Duration duréeDepuisValidation = Duration.between(transaction.getDate(), maintenant);
+                if (duréeDepuisValidation.toDays() >= 1) {
+                    transaction.setEtat("Transaction annulée");
+                    transactionRepository.save(transaction);
+                }
+            }
+            logger.debug("Message de niveau debug");
+            logger.info("Message de niveau info");
+            logger.warn("Message de niveau warn");
+            logger.error("Message de niveau error");
+        } catch (Exception e) {
+            logger.error("Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : " + e.getMessage());
+        }
+    }
+
+//
 
 
 
@@ -317,26 +357,12 @@ public class TransactionService {
 //    }
 
 
-    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
-    public void validerTransaction(Long transactionId, String codeValidation) throws Exception {
-        Transaction transaction = transactionRepository.findById(transactionId)
-                .orElseThrow(() -> new Exception("Transaction non trouvée"));
-        if (!transaction.getEtat().equals("En attente de validation")) { //Vérifier si la transaction est en attente de validation
-            throw new Exception("La transaction ne peut pas être validée car elle n'est pas en attente de validation");
-        }
-        if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
-            throw new Exception("Le code de validation est incorrect");
-        }
-        transaction.setEtat("Transaction is validated"); // Mettre à jour l'état de la transaction en "Transaction is validated"
-        transactionRepository.save(transaction);
+
 
 //        Compte compteDestinataire = transaction.getCompteDestinataire();
 //        float solde = compteDestinataire.getSolde() + transaction.getMontant();
 //        compteDestinataire.setSolde(solde);
 //        compteRepository.save(compteDestinataire);
-    }
-
-
 
 
 /*
@@ -412,8 +438,16 @@ public void transfert(Long compteEmetteur, Long compteDestinataire,  float monta
     transactionSrc.setValidationCode(code);
 
 
+//send mail to the receiver
+    String A = compteDesstinataire.getEmail();// getClient().getEmail();
+    String sender = compteEmmetteur.getNom();
+//    String recipientEmail = compteDestinataire.getNom(); here i can create Query to bring the name of the recipient
+    String recipient = compteDesstinataire.getNom();
+    String body = "Transfer successful";
 
-
+    String words = "Dear " + recipient + ",\n\nYou have receive amount of " + montant + " From " + sender + ". \n\nThank you for using our banking services.\n\nBest regards,\nBank XYZ";
+    emailService.sendMail(A, body, words);
+    //transactionSrc.setValidationCode(code);
 
 
 

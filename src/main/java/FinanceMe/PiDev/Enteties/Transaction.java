@@ -26,6 +26,7 @@ public class Transaction implements Serializable {
     //@Column(name = "validation_code")
     private String validationCode;
     private String etat;
+    //private LocalDateTime TempsValidation ;
 
 //    @Enumerated(EnumType.STRING)
 //    @Column(name = "etat_transaction")
