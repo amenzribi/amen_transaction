@@ -4,7 +4,9 @@ import FinanceMe.PiDev.Enteties.Compte;
 import FinanceMe.PiDev.Enteties.Transaction;
 import FinanceMe.PiDev.Repository.CompteRepository;
 import FinanceMe.PiDev.Repository.TransactionRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -24,7 +26,8 @@ import java.util.stream.Collectors;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
+@Slf4j
+@EnableScheduling
 @Service
 public class TransactionService {
 /*
@@ -63,7 +66,7 @@ public class TransactionService {
         }
     }
 */
-private  final Logger logger = LogManager.getLogger(TransactionService.class);
+
 
     @Autowired
     private CompteRepository compteRepository;
@@ -264,9 +267,9 @@ private  final Logger logger = LogManager.getLogger(TransactionService.class);
     public void validerTransaction(Long transactionId, String codeValidation) throws Exception {
         Transaction transaction = transactionRepository.findById(transactionId)
                 .orElseThrow(() -> new Exception("Transaction non trouvée"));
-        if (!transaction.getValidationCode().equals(codeValidation) || transaction.getDate().plusDays(1).isBefore(LocalDateTime.now())) { //Vérifier si la transaction est en attente de validation
-            transaction.setEtat("Transaction is canceled");
-            transactionRepository.save(transaction);
+        if (!transaction.getValidationCode().equals(codeValidation) /*|| transaction.getDate().plusDays(1).isBefore(LocalDateTime.now())*/) { //Vérifier si la transaction est en attente de validation
+            transaction.setEtat("Transaction (is) may canceled");
+         //   transactionRepository.save(transaction);
             throw new Exception("La transaction a été annulée car le code de validation est incorrect ou le temps de validation a dépassé 1 jour");
         }
         if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
@@ -277,27 +280,71 @@ private  final Logger logger = LogManager.getLogger(TransactionService.class);
 
 
     }
-
-    @Scheduled(cron = "0 0 0 * * ?") // Appelé tous les jours (24 heures) exécuter la méthode à minuit tous les jours.
+    private static final Logger logger = LogManager.getLogger(TransactionService.class);
+    @Scheduled(cron = "0 */7 * * * *") // exécuter la méthode toutes les 7 minutes
     public void annulerTransactionsExpirées() {
         try {
-            List<Transaction> transactionsEnAttente = transactionRepository.findByEtat("En attente de validation");
+            List<Transaction> transactionsEnAttente = transactionRepository.findTransactionsEnAttente("En attente de validation");
+            LocalDateTime maintenant = LocalDateTime.now();
             for (Transaction transaction : transactionsEnAttente) {
-                LocalDateTime maintenant = LocalDateTime.now();
-                Duration duréeDepuisValidation = Duration.between(transaction.getDate(), maintenant);
-                if (duréeDepuisValidation.toDays() >= 1) {
+                LocalDateTime dateTransaction = transaction.getDate();
+                Duration duréeDepuisValidation = Duration.between(dateTransaction, maintenant);
+                if (duréeDepuisValidation.toMinutes() >= 5) { // Vérifier si la durée est supérieure ou égale à 5 minutes
                     transaction.setEtat("Transaction annulée");
                     transactionRepository.save(transaction);
+                    logger.info("La transaction avec l'ID " + transaction.getId() + " a été annulée avec succès.");
                 }
             }
-            logger.debug("Message de niveau debug");
-            logger.info("Message de niveau info");
-            logger.warn("Message de niveau warn");
-            logger.error("Message de niveau error");
+            logger.info("Les transactions expirées ont été vérifiées avec succès.");
         } catch (Exception e) {
             logger.error("Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : " + e.getMessage());
         }
     }
+
+//    @Scheduled(cron = "0 */7 * * * *") // exécuter la méthode toutes les 7 minutes
+//    public void annulerTransactionsExpirées() {
+//        try {
+//            List<Transaction> transactionsEnAttente = transactionRepository.findTransactionsEnAttente("En attente de validation");
+//            LocalDateTime maintenant = LocalDateTime.now();
+//            for (Transaction transaction : transactionsEnAttente) {
+//                LocalDateTime dateTransaction = transaction.getDate();
+//                Duration duréeDepuisValidation = Duration.between(dateTransaction, maintenant);
+//                if (duréeDepuisValidation.toMinutes() >= 5) { // Vérifier si la durée est supérieure ou égale à 5 minutes
+//                    transaction.setEtat("Transaction annulée");
+//                    transactionRepository.save(transaction);
+//                }
+//            }
+//            logger.info("Les transactions expirées ont été annulées avec succès.");
+//        } catch (Exception e) {
+//            logger.error("Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : " + e.getMessage());
+//        }
+//    }
+
+
+
+
+
+
+//    @Scheduled(cron = "0 */5 * * * ?") // Appelé tous les jours (24 heures) exécuter la méthode à minuit tous les jours.
+//    public void annulerTransactionsExpirées() {
+//        try {
+//            List<Transaction> transactionsEnAttente = transactionRepository.findTransactionsEnAttente("En attente de validation");
+//            for (Transaction transaction : transactionsEnAttente) {
+//                LocalDateTime maintenant = LocalDateTime.now();
+//                Duration duréeDepuisValidation = Duration.between(transaction.getDate(), maintenant);
+//                if (duréeDepuisValidation.toDays() >= 1) {
+//                    transaction.setEtat("Transaction annulée");
+//                    transactionRepository.save(transaction);
+//                }
+//            }
+//            logger.debug("Message de niveau debug");
+//            logger.info("Message de niveau info");
+//            logger.warn("Message de niveau warn");
+//            logger.error("Message de niveau error");
+//        } catch (Exception e) {
+//            logger.error("Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : " + e.getMessage());
+//        }
+//    }
 
 //
 

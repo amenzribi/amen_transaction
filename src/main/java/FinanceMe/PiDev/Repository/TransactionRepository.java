@@ -10,7 +10,13 @@ import java.util.List;
 public interface TransactionRepository extends JpaRepository<Transaction , Long> {
 
     Transaction findTransactionById(Long id);
-    List<Transaction> findByEtat(String etat);
+
+    @Query("SELECT t FROM Transaction t WHERE t.etat =?1")
+    List<Transaction> findTransactionsEnAttente(String etat);
+   // List<Transaction> findByEtat(String etat);
+
+
+   //List<Transaction> findByStatus(TransactionStatus status);
 
 
   /*  @Query("SELECT t FROM Transaction t WHERE t.numeroCompteDestinataire = :numeroCompteDestinataire AND t.codeValidation = :codeValidation")
