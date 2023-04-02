@@ -9,6 +9,7 @@ import org.springframework.data.repository.query.Param;
 import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 public interface TransactionRepository extends JpaRepository<Transaction , Long> {
 
@@ -23,6 +24,7 @@ public interface TransactionRepository extends JpaRepository<Transaction , Long>
 
     //List<Transaction> findByStatus(TransactionStatus status);
 
+    Optional<Transaction> findByValidationCode(String validationCode);
 
   /*  @Query("SELECT t FROM Transaction t WHERE t.numeroCompteDestinataire = :numeroCompteDestinataire AND t.codeValidation = :codeValidation")
     Transaction findByNumeroCompteDestinataireAndCodeValidation(@Param("numeroCompteDestinataire") String numeroCompteDestinataire, @Param("codeValidation") String codeValidation);

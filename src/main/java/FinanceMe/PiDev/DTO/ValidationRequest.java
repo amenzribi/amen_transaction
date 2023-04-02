@@ -12,9 +12,9 @@ import java.util.UUID;
 @NoArgsConstructor
 public class ValidationRequest {
 //    @NotNull(message = "Transaction ID cannot be null")
-    private Long transactionId;
+ //   private Long transactionId;
 
-    private String validationCode ;//= UUID.randomUUID().toString().substring(0, 6);
+    private String validationCode ;
 //    @NotBlank(message = "Validation code cannot be blank")
 //    @Size(min = 6, max = 6, message = "Validation code must be 6 characters long")
 //    public ValidationRequest() {

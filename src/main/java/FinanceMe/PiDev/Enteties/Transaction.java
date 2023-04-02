@@ -38,6 +38,9 @@ private TransactionState etat;
     @ManyToOne(fetch = FetchType.LAZY)
    // @JoinColumn(name = "idcompte_r")
     private Compte compteDestinataire;
+    @Transient
+    private double fee = 0.1 ;
+    private float feeTransaction ;
 /*
 @ManyToOne(fetch = FetchType.LAZY)
 
@@ -60,6 +63,11 @@ private TransactionState etat;
 private Compte compteDest;
 
  */
+@PrePersist
+@PreUpdate
+public void calculateFeeTransaction() {
+    this.feeTransaction = (float) (this.montant * this.fee);
+}
 
     @Override
     public String toString() {
@@ -69,22 +77,11 @@ private Compte compteDest;
                 ", date=" + date +
                 ", type_transaction='" + type_transaction + '\'' +
                 ", validationCode='" + validationCode + '\'' +
+                ", etat=" + etat +
                 ", compteEmetteur=" + compteEmetteur +
                 ", compteDestinataire=" + compteDestinataire +
+                ", fee=" + fee +
+                ", feeTransaction=" + feeTransaction +
                 '}';
     }
-
-    /*
-
-    @Override
-    public String toString() {
-        return "Transaction{" +
-                "id=" + id +
-                ", montant=" + montant +
-                ", date=" + date +
-                ", compte=" + compte +
-                '}';
-    }
-
- */
 }

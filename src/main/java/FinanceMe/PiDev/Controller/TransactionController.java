@@ -48,26 +48,20 @@ import javax.servlet.http.HttpServletResponse;
 @NoArgsConstructor
 
 @RestController
-@RequestMapping("/transactionsall")
+@RequestMapping("/transactions")
 public class TransactionController {
     @Autowired
     private TransactionService transactionService;
     private CompteRepository compteRepository;
     @Autowired
     TransactionRepository transactionRepository;
-//    @Autowired
-//  ReportService reportService ;
 
-
-   // private final ReportService reportService;
 
     public TransactionController(TransactionService transactionService) {
         this.transactionService = transactionService;
 
     }
-//    public ReportController(ReportService reportService) {
-//        this.reportService = reportService;
-//    }
+
     /*
     @PostMapping("/depot")
     public ResponseEntity<?> depot(@RequestParam Long compteDestinataire, @RequestParam float montant , @RequestParam String type_transaction) {
@@ -140,17 +134,13 @@ public class TransactionController {
     @PostMapping("/validate")
     public ResponseEntity<?> validerTransaction(@RequestBody ValidationRequest validationRequest) {
         try {
-            transactionService.validerTransaction(validationRequest.getTransactionId(), validationRequest.getValidationCode());
+            transactionService.validerTransaction( validationRequest.getValidationCode());
             return ResponseEntity.ok("Transaction validated successfully.");
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
 
-//    @GetMapping("/annulerExpirées")
-//    public void annulerTransactionsExpirées() {
-//        transactionService.annulerTransactionsExpirées();
-//    }
 
 
     @PostMapping("/withdraw")
@@ -162,49 +152,8 @@ public class TransactionController {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
-//
-//    @PostMapping("/validateWithdraw")
-//    public ResponseEntity<?> validerTransactionretrait(@RequestBody ValidationWithdrawRequest validationWithdrawRequest  ) {
-//        try {
-//            transactionService.validerTransactionretrait(validationWithdrawRequest.getTransactionId(), validationWithdrawRequest.getValidationCode());
-//            return ResponseEntity.ok("Transaction validated successfully.");
-//        } catch (Exception e) {
-//            return ResponseEntity.badRequest().body(e.getMessage());
-//        }
-//    }
 
 
-
-
-
-
-    @GetMapping("/transactions")
-    public String showTransactions(Model model) {
-        List<Transaction> transactions = transactionService.findAllTransaction();
-        model.addAttribute("transactions", transactions);
-        return "transactions";
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-//    @PostMapping("/retrait")
-//    public ResponseEntity<?> retrait(@RequestParam Long compteDestinataire, @RequestParam float montant , @RequestParam String type_transaction) {
-//        try {
-//            transactionService.retrait(compteDestinataire, montant, type_transaction);
-//            return ResponseEntity.ok().build();
-//        } catch (Exception e) {
-//            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
-//        }
-//    }
 
     @PostMapping("/transfert")
     public ResponseEntity<?> transfert(@RequestBody TransferRequest transferRequest){//@RequestParam Long compteEmetteur, @RequestParam Long compteDestinataire, @RequestParam float montant , @RequestParam String type_transaction) {
@@ -219,21 +168,85 @@ public class TransactionController {
 
 
 
-  /*
-    @PostMapping("/{compteSrcId}/{compteDestId}/{montant}")
-    public ResponseEntity<String> transfert(@PathVariable("compteSrcId") Long compteSrcId,
-                                            @PathVariable("compteDestId") Long compteDestId,
-                                            @PathVariable("montant") float montant) {
-        try {
-            transactionService.transfert(compteSrcId, compteDestId, montant);
-            return new ResponseEntity<>("Transfert effectué avec succès", HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
-        }
+
+    @GetMapping("/all_transactions")
+    public ResponseEntity<List<Transaction>> findAllTransaction() {
+        List<Transaction> transactions = transactionService.findAllTransaction();
+        return new ResponseEntity<>(transactions, HttpStatus.OK);
     }
 
-   */
+    @GetMapping("/find/{id}")
+    public ResponseEntity<Transaction> findTransactionById(@PathVariable("id") Long id) {
+        Transaction transaction = transactionService.findTransactionById(id);
+        return new ResponseEntity<>(transaction, HttpStatus.OK);
+    }
 
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<?> deleteTransactionById(@PathVariable("id") Long id) {
+        transactionService.deleteTransactionById(id);
+        return new ResponseEntity<>(HttpStatus.OK);
+
+    }
+
+//    @GetMapping("/transactionschart")
+//    public String transactions(Model model) {
+//        model.addAttribute("message", "Hello World!");
+//        List<Transaction> transactions = transactionRepository.findAll();
+//        List<String> dates = new ArrayList<>();
+//        List<Float> montants = new ArrayList<>();
+//        List<String> types = new ArrayList<>();
+//        for (Transaction transaction : transactions) {
+//            dates.add(transaction.getDate().toString());
+//            montants.add(transaction.getMontant());
+//            types.add(transaction.getType_transaction());
+//        }
+//        model.addAttribute("dates", dates);
+//        model.addAttribute("montants", montants);
+//        model.addAttribute("types", types);
+//        return "transactions";
+//    }
+
+
+//    @Autowired
+//    private DataSource dataSource;
+//
+//    @GetMapping("/transaction-report")
+//    @ResponseBody
+//    public byte[] generateTransactionReport() throws JRException {
+//
+//        // Récupération des transactions validées dans les 30 derniers jours
+//        List<Transaction> transactions = getValidatedTransactionsLast30Days();
+//
+//        // Création d'une source de données pour les transactions
+//        JRDataSource dataSource = new JREmptyDataSource();
+//
+//        if (!transactions.isEmpty()) {
+//            JdbcDataSource jdbcDataSource = new JdbcDataSource(this.dataSource);
+//            jdbcDataSource.executeQuery("SELECT * FROM Transaction WHERE etat = 'VALIDE' AND date >= DATE_SUB(NOW(), INTERVAL 30 DAY)");
+//            dataSource = jdbcDataSource;
+//        }
+//
+//        // Chargement du fichier JRXML depuis le classpath
+//        Resource resource = new ClassPathResource("transaction-report.jrxml");
+//        InputStream reportInputStream = resource.getInputStream();
+//
+//        // Compilation du fichier JRXML en JasperReport
+//        JasperReport jasperReport = JasperCompileManager.compileReport(reportInputStream);
+//
+//        // Paramètres pour le rapport
+//        Map<String, Object> parameters = new HashMap<>();
+//        parameters.put("dataSource", dataSource);
+//
+//        // Génération du rapport au format PDF
+//        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource);
+//        byte[] pdfBytes = JasperExportManager.exportReportToPdf(jasperPrint);
+//
+//        return pdfBytes;
+//    }
+//
+//    private List<Transaction> getValidatedTransactionsLast30Days() {
+//        // Code pour récupérer les transactions validées dans les 30 derniers jours depuis votre base de données
+//    }
 
 
 //    @GetMapping("/reports")
@@ -313,93 +326,6 @@ public class TransactionController {
 //                .body(resource);
 //
 //    }
-//
-
-//    @GetMapping("/all_transactions")
-//    public ResponseEntity<List<Transaction>> findAllTransaction() {
-//        List<Transaction> transactions = transactionService.findAllTransaction();
-//        return new ResponseEntity<>(transactions, HttpStatus.OK);
-//    }
-
-
-
-
-
-
-    @GetMapping("/find/{id}")
-    public ResponseEntity<Transaction> findTransactionById(@PathVariable("id") Long id) {
-        Transaction transaction = transactionService.findTransactionById(id);
-        return new ResponseEntity<>(transaction, HttpStatus.OK);
-    }
-
-    @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> deleteTransactionById(@PathVariable("id") Long id) {
-        transactionService.deleteTransactionById(id);
-        return new ResponseEntity<>(HttpStatus.OK);
-
-    }
-
-//    @GetMapping("/transactionschart")
-//    public String transactions(Model model) {
-//        model.addAttribute("message", "Hello World!");
-//        List<Transaction> transactions = transactionRepository.findAll();
-//        List<String> dates = new ArrayList<>();
-//        List<Float> montants = new ArrayList<>();
-//        List<String> types = new ArrayList<>();
-//        for (Transaction transaction : transactions) {
-//            dates.add(transaction.getDate().toString());
-//            montants.add(transaction.getMontant());
-//            types.add(transaction.getType_transaction());
-//        }
-//        model.addAttribute("dates", dates);
-//        model.addAttribute("montants", montants);
-//        model.addAttribute("types", types);
-//        return "transactions";
-//    }
-
-
-//    @Autowired
-//    private DataSource dataSource;
-//
-//    @GetMapping("/transaction-report")
-//    @ResponseBody
-//    public byte[] generateTransactionReport() throws JRException {
-//
-//        // Récupération des transactions validées dans les 30 derniers jours
-//        List<Transaction> transactions = getValidatedTransactionsLast30Days();
-//
-//        // Création d'une source de données pour les transactions
-//        JRDataSource dataSource = new JREmptyDataSource();
-//
-//        if (!transactions.isEmpty()) {
-//            JdbcDataSource jdbcDataSource = new JdbcDataSource(this.dataSource);
-//            jdbcDataSource.executeQuery("SELECT * FROM Transaction WHERE etat = 'VALIDE' AND date >= DATE_SUB(NOW(), INTERVAL 30 DAY)");
-//            dataSource = jdbcDataSource;
-//        }
-//
-//        // Chargement du fichier JRXML depuis le classpath
-//        Resource resource = new ClassPathResource("transaction-report.jrxml");
-//        InputStream reportInputStream = resource.getInputStream();
-//
-//        // Compilation du fichier JRXML en JasperReport
-//        JasperReport jasperReport = JasperCompileManager.compileReport(reportInputStream);
-//
-//        // Paramètres pour le rapport
-//        Map<String, Object> parameters = new HashMap<>();
-//        parameters.put("dataSource", dataSource);
-//
-//        // Génération du rapport au format PDF
-//        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource);
-//        byte[] pdfBytes = JasperExportManager.exportReportToPdf(jasperPrint);
-//
-//        return pdfBytes;
-//    }
-//
-//    private List<Transaction> getValidatedTransactionsLast30Days() {
-//        // Code pour récupérer les transactions validées dans les 30 derniers jours depuis votre base de données
-//    }
-
-
 
 
 
