@@ -357,7 +357,7 @@ public class TransactionService {
 //
 private static final Logger loggerRemind = LogManager.getLogger(TransactionService.class);
     @Transactional
-    @Scheduled(cron = "0 */3 * * * *") // execute the method every 3 minutes
+    @Scheduled(cron = "0 */2 * * * *") // execute the method every 2 minutes
     public void remindUsersOfPendingTransactions() {
         try {
             List<Transaction> pendingTransactions = transactionRepository.findByEtat(TransactionState.PENDING);
@@ -529,65 +529,12 @@ private static final Logger loggerRemind = LogManager.getLogger(TransactionServi
 
         transactionRepository.save(transaction);
     }
-//    private  final String TRANSACTION_STATE_PENDING = "En attente de validation";
-//    private  final String TRANSACTION_STATE_VALIDATED = "Transaction validée";
-//    private  final String TRANSACTION_STATE_CANCELLED = "Transaction annulée";
-
-//    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
-//    public void validerTransactionretrait(Long transactionId, String codeValidation) throws Exception {
-//        Transaction transaction = transactionRepository.findById(transactionId)
-//                .orElseThrow(() -> new Exception("Transaction non trouvée"));
-//        if (!transaction.getEtat().equals("En attente de validation")) { //Vérifier si la transaction est en attente de validation
-//            throw new Exception("La transaction ne peut pas être validée car elle n'est pas en attente de validation");
-//        }
-//        if (!transaction.getValidationCode().equals(codeValidation)) { //Vérifier si le code de validation est correct
-//            throw new Exception("Le code de validation est incorrect");
-//        }
-//        transaction.setEtat("Transaction is validated"); // Mettre à jour l'état de la transaction en "Transaction is validated"
-//        transactionRepository.save(transaction);
-//
-//        Compte compteDestinataire = transaction.getCompteDestinataire();
-//        float solde = compteDestinataire.getSolde() - transaction.getMontant();
-//        compteDestinataire.setSolde(solde);
-//        compteRepository.save(compteDestinataire);
-//    }
 
 
 
 
-//        Compte compteDestinataire = transaction.getCompteDestinataire();
-//        float solde = compteDestinataire.getSolde() + transaction.getMontant();
-//        compteDestinataire.setSolde(solde);
-//        compteRepository.save(compteDestinataire);
 
 
-/*
-    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
-    public void transfert(Long compte_r, Long compte_s, float montant) throws Exception {
-        Compte compte_Src = compteRepository.findById(compte_s).orElseThrow(() -> new Exception("Compte source non trouvé"));
-        Compte compteDest = compteRepository.findById(compte_r).orElseThrow(() -> new Exception("Compte destination non trouvé"));
-        float soldeSrc = compte_Src.getSolde() - montant;
-        if (soldeSrc < 0) {
-            throw new Exception("Solde insuffisant");
-        }
-        float soldeDest = compteDest.getSolde() + montant;
-        compte_Src.setSolde(soldeSrc);
-        compteDest.setSolde(soldeDest);
-        compteRepository.save(compte_Src);
-        compteRepository.save(compteDest);
-        Transaction transactionSrc = new Transaction();
-        transactionSrc.setCompteEmetteur(compte_Src);
-        transactionSrc.setMontant(-montant);
-        transactionSrc.setDate(LocalDateTime.now());
-        transactionRepository.save(transactionSrc);
-        Transaction transactionDest = new Transaction();
-        transactionDest.setCompteDestinataire(compte_Dest);
-        transactionDest.setMontant(montant);
-        transactionDest.setDate(LocalDateTime.now());
-        transactionRepository.save(transactionDest);
-    }
-
- */
 
 @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
 public void transfert(Long compteEmetteur, Long compteDestinataire,  float montant , String type_transaction) throws Exception {
@@ -649,8 +596,6 @@ public void transfert(Long compteEmetteur, Long compteDestinataire,  float monta
 
 }
 
-   // String to = compte.getEmail();
-   // String subject = "Transaction validation code";
 
 
 
@@ -681,42 +626,7 @@ public void transfert(Long compteEmetteur, Long compteDestinataire,  float monta
     transactionRepository.deleteById(id);
 }
 }
-    /*
-    @Autowired
-    private TransactionRepository transactionRepository;
 
-    @Autowired
-    private CompteRepository compteRepository;
-
-    public void deposer(Long compteId, Double montant) {
-        Compte compte = compteRepository.findById(compteId).orElseThrow(() -> new EntityNotFoundException("Compte non trouvé"));
-
-        Double nouveauSolde = compte.getSolde() + montant;
-        compte.setSolde(nouveauSolde);
-        compteRepository.save(compte);
-
-        Transaction transaction = new Transaction();
-        transaction.setCompte(compte);
-        transaction.setMontant(montant);
-        transaction.setDate(LocalDateTime.now());
-        transactionRepository.save(transaction);
-    }
-
-    public void retirer(Long compteId, Double montant) {
-        Compte compte = compteRepository.findById(compteId).orElseThrow(() -> new EntityNotFoundException("Compte non trouvé"));
-
-        Double nouveauSolde = compte.getSolde() - montant;
-        compte.setSolde(nouveauSolde);
-        compteRepository.save(compte);
-
-        Transaction transaction = new Transaction();
-        transaction.setCompte(compte);
-        transaction.setMontant(-montant);
-        transaction.setDate(LocalDateTime.now());
-        transactionRepository.save(transaction);
-    }
-
-     */
 
 
 

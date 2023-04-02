@@ -260,3 +260,11 @@
 2023-03-31 19:03:02,267 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 115
 2023-03-31 19:03:04,455 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 116
 2023-03-31 19:03:04,455 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 16:29:51,916 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 10396 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-02 16:29:51,942 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-02 16:30:14,527 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 24.932 seconds (JVM running for 30.252)
+2023-04-02 16:32:00,302 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 16:33:59,987 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 16:35:00,180 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 166 a été annulée avec succès.
+2023-04-02 16:35:00,185 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 168 a été annulée avec succès.
+2023-04-02 16:35:00,185 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
