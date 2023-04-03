@@ -1,0 +1,620 @@
+2023-03-27 06:50:32,795 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 15148 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 06:50:32,831 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 06:50:45,875 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 14.604 seconds (JVM running for 17.229)
+2023-03-27 07:03:02,912 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16372 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 07:03:02,918 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 07:03:10,350 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 8.289 seconds (JVM running for 9.39)
+2023-03-27 07:09:50,004 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9776 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 07:09:50,017 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 07:09:57,825 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 8.782 seconds (JVM running for 9.852)
+2023-03-27 06:16:43,267 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 17076 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 06:16:43,272 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 06:16:50,663 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 8.133 seconds (JVM running for 9.125)
+2023-03-27 06:22:28,991 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16852 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 06:22:28,996 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 06:22:36,105 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 7.862 seconds (JVM running for 8.847)
+2023-03-27 07:34:33,328 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 5292 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 07:34:33,333 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 07:34:41,323 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 8.753 seconds (JVM running for 9.753)
+2023-03-27 07:38:23,687 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 8408 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 07:38:23,687 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 07:38:31,019 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 8.092 seconds (JVM running for 9.065)
+2023-03-27 07:40:18,250 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9968 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 07:40:18,265 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 07:40:26,172 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 8.74 seconds (JVM running for 9.863)
+2023-03-27 06:41:39,866 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16420 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 06:41:39,866 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 06:41:47,656 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 8.522 seconds (JVM running for 9.511)
+2023-03-28 06:03:05,282 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16404 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-28 06:03:05,339 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 06:03:23,232 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 22.256 seconds (JVM running for 26.534)
+2023-03-27 18:28:11,074 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 12856 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 18:28:11,079 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:28:31,431 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 21.439 seconds (JVM running for 24.535)
+2023-03-27 18:29:20,422 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 19780 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 18:29:20,428 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:29:28,992 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.359 seconds (JVM running for 10.399)
+2023-03-27 18:33:23,191 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 12580 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 18:33:23,197 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:33:33,048 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.665 seconds (JVM running for 11.795)
+2023-03-27 18:47:36,229 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 7644 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 18:47:36,236 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:47:47,629 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.273 seconds (JVM running for 14.19)
+2023-03-27 18:56:29,873 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 12064 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 18:56:29,880 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 18:56:40,320 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.28 seconds (JVM running for 12.432)
+2023-03-27 19:05:46,730 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 5512 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 19:05:46,735 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 19:05:55,577 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.664 seconds (JVM running for 10.764)
+2023-03-27 19:17:00,735 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9156 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 19:17:00,740 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 19:17:09,536 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.576 seconds (JVM running for 10.708)
+2023-03-27 19:24:45,863 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 7108 (C:\Users\zribi\Desktop\FinanceMe\target\classes started by zribi in C:\Users\zribi\Desktop\FinanceMe)
+2023-03-27 19:24:45,869 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-27 19:24:56,848 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.187 seconds (JVM running for 13.694)
+2023-03-30 05:05:17,813 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 11472 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:05:17,816 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:05:34,637 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 18.208 seconds (JVM running for 20.82)
+2023-03-30 05:07:02,230 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 05:14:00,021 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 05:21:00,073 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 105 a été annulée avec succès.
+2023-03-30 05:21:00,079 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 107 a été annulée avec succès.
+2023-03-30 05:21:00,079 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 05:28:00,266 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 05:33:26,662 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16736 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:33:26,668 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:33:36,806 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.017 seconds (JVM running for 13.901)
+2023-03-30 05:35:00,070 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 05:41:05,399 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 20208 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:41:05,405 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:41:16,675 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.131 seconds (JVM running for 13.692)
+2023-03-30 05:42:00,477 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 5088 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:42:00,483 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:42:11,599 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.059 seconds (JVM running for 13.136)
+2023-03-30 05:44:19,263 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 14748 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:44:19,270 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:44:31,716 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 13.427 seconds (JVM running for 14.852)
+2023-03-30 05:45:41,096 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 22592 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:45:41,102 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:45:52,620 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.256 seconds (JVM running for 13.348)
+2023-03-30 05:47:31,067 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 8412 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:47:31,073 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:47:41,603 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.313 seconds (JVM running for 12.688)
+2023-03-30 05:49:01,798 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 22968 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:49:01,803 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:49:11,814 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.772 seconds (JVM running for 11.871)
+2023-03-30 05:49:53,875 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 23184 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:49:53,880 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:50:03,774 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.665 seconds (JVM running for 12.213)
+2023-03-30 05:52:32,764 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16740 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:52:32,769 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:52:41,323 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.316 seconds (JVM running for 10.508)
+2023-03-30 05:56:00,135 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 05:57:43,609 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18800 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 05:57:43,615 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 05:57:52,509 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.68 seconds (JVM running for 10.796)
+2023-03-30 06:00:00,072 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 06:06:28,269 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 22192 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 06:06:28,275 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 06:06:36,213 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 8.674 seconds (JVM running for 9.743)
+2023-03-30 06:07:00,074 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 06:08:41,900 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18160 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 06:08:41,906 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 06:08:50,404 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.301 seconds (JVM running for 10.472)
+2023-03-30 06:18:10,429 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 17564 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 06:18:10,434 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 06:18:20,180 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.575 seconds (JVM running for 11.557)
+2023-03-30 06:21:00,067 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 06:23:21,661 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 25616 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 06:23:21,666 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 06:23:30,439 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.604 seconds (JVM running for 10.679)
+2023-03-30 06:28:00,062 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 06:35:00,021 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 06:42:00,025 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-30 06:51:55,843 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 22688 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 06:51:55,848 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 06:52:04,763 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.685 seconds (JVM running for 10.67)
+2023-03-30 06:56:00,087 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-30 07:00:00,005 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-30 07:15:38,239 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 20572 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 07:15:38,247 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 07:15:49,954 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.708 seconds (JVM running for 14.553)
+2023-03-30 07:18:21,822 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 24340 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 07:18:21,828 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 07:18:33,099 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.105 seconds (JVM running for 13.331)
+2023-03-30 07:19:11,848 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 10960 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 07:19:11,854 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 07:19:23,304 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.205 seconds (JVM running for 13.314)
+2023-03-30 07:21:00,102 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-30 07:21:30,453 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9384 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 07:21:30,460 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 07:21:42,640 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 13.058 seconds (JVM running for 14.247)
+2023-03-30 07:25:54,202 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18332 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-30 07:25:54,208 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 07:26:03,716 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.38 seconds (JVM running for 11.483)
+2023-03-30 07:28:00,079 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-30 07:35:00,013 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 03:29:28,056 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 19040 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 03:29:28,084 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 03:29:44,791 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 18.134 seconds (JVM running for 24.645)
+2023-03-31 03:30:59,437 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 10808 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 03:30:59,447 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 03:31:11,261 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.923 seconds (JVM running for 14.45)
+2023-03-31 03:35:00,096 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 03:42:00,026 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 03:49:00,020 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 04:01:51,280 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18284 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 04:01:51,310 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 04:02:06,065 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 15.819 seconds (JVM running for 18.495)
+2023-03-31 04:07:00,247 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 04:11:57,574 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9584 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 04:11:57,581 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 04:12:09,107 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.4 seconds (JVM running for 14.098)
+2023-03-31 04:14:00,086 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 04:16:51,723 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 15460 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 04:16:51,728 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 04:17:02,856 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.889 seconds (JVM running for 13.096)
+2023-03-31 04:21:00,086 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 04:28:00,008 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 04:35:00,004 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 04:46:04,181 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 21908 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 04:46:04,186 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 04:46:15,966 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.585 seconds (JVM running for 14.234)
+2023-03-31 04:49:00,098 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 04:56:00,019 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 06:33:09,108 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 1372 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 06:33:09,159 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 06:33:43,253 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 35.983 seconds (JVM running for 40.354)
+2023-03-31 06:34:16,816 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9060 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 06:34:16,822 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 06:34:33,544 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 17.648 seconds (JVM running for 20.297)
+2023-03-31 06:35:00,044 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 06:40:40,060 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16812 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 06:40:40,066 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 06:40:54,213 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 15.042 seconds (JVM running for 16.635)
+2023-03-31 06:42:00,097 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 06:48:14,412 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 11908 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 06:48:14,418 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 06:48:28,110 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 14.625 seconds (JVM running for 16.483)
+2023-03-31 06:49:00,618 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 06:51:26,979 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18120 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 06:51:26,989 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 06:51:37,368 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.322 seconds (JVM running for 12.796)
+2023-03-31 06:56:00,072 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 16:40:12,119 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 17536 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 16:40:12,138 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 16:40:24,704 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 13.792 seconds (JVM running for 17.179)
+2023-03-31 16:42:00,075 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 16:48:59,996 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 16:51:23,965 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 5208 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 16:51:23,971 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 16:51:35,021 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.912 seconds (JVM running for 13.682)
+2023-03-31 16:56:00,141 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 16:59:33,042 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18712 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 16:59:33,048 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 16:59:44,257 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.046 seconds (JVM running for 13.624)
+2023-03-31 17:00:00,098 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 17:02:40,065 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 8300 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 17:02:40,072 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 17:02:50,373 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.166 seconds (JVM running for 12.344)
+2023-03-31 17:07:04,680 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 6052 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 17:07:04,686 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 17:07:13,530 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 9.564 seconds (JVM running for 10.718)
+2023-03-31 17:13:45,736 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 19220 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 17:13:45,746 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 17:13:58,677 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 13.964 seconds (JVM running for 15.796)
+2023-03-31 17:14:00,077 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 17:29:51,500 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 12384 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 17:29:51,507 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 17:30:06,881 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 16.365 seconds (JVM running for 18.584)
+2023-03-31 18:00:00,068 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 23212 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 18:00:00,098 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 18:00:14,296 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 15.29 seconds (JVM running for 16.99)
+2023-03-31 18:03:00,141 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:06:00,023 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:07:00,056 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 18:09:00,017 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:12:00,025 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:14:00,005 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 18:15:00,025 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:18:00,014 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:18:34,416 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9748 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 18:18:34,422 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 18:18:46,120 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.46 seconds (JVM running for 13.684)
+2023-03-31 18:21:00,164 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:21:00,197 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 18:24:00,023 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:27:00,023 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:28:00,003 [scheduling-1] ERROR F.PiDev.Services.TransactionService - Une exception s'est produite lors de l'exécution de la méthode annulerTransactionsExpirées : Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [En attente de validation] did not match expected type [FinanceMe.PiDev.Enteties.TransactionState (n/a)]
+2023-03-31 18:30:07,245 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9228 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 18:30:07,251 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 18:30:16,961 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.458 seconds (JVM running for 11.649)
+2023-03-31 18:33:00,141 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#5] - no Session
+2023-03-31 18:35:00,068 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 108 a été annulée avec succès.
+2023-03-31 18:35:00,073 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 109 a été annulée avec succès.
+2023-03-31 18:35:00,078 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 110 a été annulée avec succès.
+2023-03-31 18:35:00,078 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-31 18:36:00,020 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#6] - no Session
+2023-03-31 18:39:00,018 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#6] - no Session
+2023-03-31 18:40:38,418 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 6700 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 18:40:38,423 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 18:40:49,834 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.157 seconds (JVM running for 13.543)
+2023-03-31 18:42:00,242 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 112 a été annulée avec succès.
+2023-03-31 18:42:00,243 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-31 18:42:00,273 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-03-31 18:45:00,016 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-03-31 18:48:00,025 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-03-31 18:49:00,027 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 114 a été annulée avec succès.
+2023-03-31 18:49:00,027 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-31 18:51:00,021 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-03-31 18:54:00,018 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-03-31 18:56:00,017 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-31 18:57:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-03-31 18:57:32,252 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18708 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-03-31 18:57:32,258 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-31 18:57:42,566 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.067 seconds (JVM running for 12.236)
+2023-03-31 19:00:03,577 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 115
+2023-03-31 19:00:06,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 116
+2023-03-31 19:00:06,023 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-03-31 19:00:06,075 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-03-31 19:03:02,267 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 115
+2023-03-31 19:03:04,455 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 116
+2023-03-31 19:03:04,455 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 04:53:16,525 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 22232 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 04:53:16,584 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 04:53:45,732 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 30.864 seconds (JVM running for 34.446)
+2023-04-01 04:54:00,553 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 04:56:01,054 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 115 a été annulée avec succès.
+2023-04-01 04:56:01,064 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 116 a été annulée avec succès.
+2023-04-01 04:56:01,064 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 04:57:00,001 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 04:58:24,677 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 23896 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 04:58:24,707 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 04:58:46,026 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 23.619 seconds (JVM running for 28.701)
+2023-04-01 05:00:00,109 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 05:00:00,145 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 05:03:00,014 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 05:06:00,012 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 05:07:00,053 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 117 a été annulée avec succès.
+2023-04-01 05:07:00,064 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 118 a été annulée avec succès.
+2023-04-01 05:07:00,064 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 05:08:50,494 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 22228 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 05:08:50,499 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 05:09:01,865 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.579 seconds (JVM running for 14.06)
+2023-04-01 05:12:00,068 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 05:14:00,026 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 05:14:22,781 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 24792 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 05:14:22,790 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 05:14:41,124 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 19.506 seconds (JVM running for 20.986)
+2023-04-01 05:15:00,072 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 05:18:00,015 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 05:20:52,910 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 26572 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 05:20:52,917 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 05:21:06,619 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 14.533 seconds (JVM running for 16.11)
+2023-04-01 05:24:00,153 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 05:27:00,001 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 05:28:00,092 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 119 a été annulée avec succès.
+2023-04-01 05:28:00,102 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 120 a été annulée avec succès.
+2023-04-01 05:28:00,109 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 121 a été annulée avec succès.
+2023-04-01 05:28:00,109 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 05:30:00,014 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:33:00,016 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:34:59,992 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 05:36:00,019 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:39:00,018 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:42:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 05:42:00,034 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:45:00,001 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:48:00,007 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:49:00,006 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 05:51:00,010 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:54:00,015 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 05:56:00,009 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 06:25:43,461 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 24496 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 06:25:43,466 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 06:25:56,676 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 14.206 seconds (JVM running for 17.311)
+2023-04-01 06:27:00,070 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 06:28:00,057 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 06:30:00,030 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 06:31:46,074 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 12268 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 06:31:46,079 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 06:32:41,856 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 5532 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 06:32:41,861 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 06:34:15,873 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 21096 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 06:34:15,879 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 06:40:14,063 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 8388 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 06:40:14,069 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 06:40:23,843 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.529 seconds (JVM running for 11.677)
+2023-04-01 06:42:00,087 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 06:42:00,173 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 122 a été annulée avec succès.
+2023-04-01 06:42:00,173 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 06:45:00,049 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 06:48:00,029 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 06:49:00,059 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 123 a été annulée avec succès.
+2023-04-01 06:49:00,059 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 06:50:28,015 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18952 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 06:50:28,021 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 06:50:38,655 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.46 seconds (JVM running for 12.738)
+2023-04-01 06:51:00,057 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 06:54:00,029 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 06:56:00,133 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 06:57:00,037 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 06:57:33,815 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9128 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 06:57:33,821 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 06:57:43,458 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.383 seconds (JVM running for 11.566)
+2023-04-01 07:00:00,123 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 125 a été annulée avec succès.
+2023-04-01 07:00:00,125 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:00:00,131 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 07:00:34,124 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 25892 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 07:00:34,130 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 07:00:43,637 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.293 seconds (JVM running for 11.517)
+2023-04-01 07:03:00,069 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:06:00,035 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:07:00,091 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:09:00,030 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:12:00,041 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:14:00,110 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 130 a été annulée avec succès.
+2023-04-01 07:14:00,121 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 131 a été annulée avec succès.
+2023-04-01 07:14:00,127 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 132 a été annulée avec succès.
+2023-04-01 07:14:00,127 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:15:00,037 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:18:00,025 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:21:00,031 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:21:00,065 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 134 a été annulée avec succès.
+2023-04-01 07:21:00,065 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:24:00,024 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 07:27:00,018 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 07:28:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:30:00,016 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:33:00,021 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:33:32,497 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 24820 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 07:33:32,519 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 07:33:48,573 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 17.243 seconds (JVM running for 19.369)
+2023-04-01 07:35:00,250 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 135 a été annulée avec succès.
+2023-04-01 07:35:00,252 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:36:00,012 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:39:00,019 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:42:00,030 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:42:00,048 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 136 a été annulée avec succès.
+2023-04-01 07:42:00,049 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:45:00,009 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 07:47:24,366 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 26244 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 07:47:24,372 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 07:47:36,957 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 13.898 seconds (JVM running for 15.597)
+2023-04-01 07:48:00,078 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:49:00,047 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:51:00,010 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:54:00,005 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 07:56:00,023 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 137 a été annulée avec succès.
+2023-04-01 07:56:00,023 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 07:56:59,993 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 07:58:43,237 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9608 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 07:58:43,242 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 07:58:57,079 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 14.822 seconds (JVM running for 16.101)
+2023-04-01 08:00:00,262 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 08:00:00,269 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 08:03:00,006 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 08:06:00,010 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 08:07:35,158 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 19216 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 08:07:35,163 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 08:07:47,849 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 13.482 seconds (JVM running for 14.735)
+2023-04-01 08:09:00,176 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 08:10:17,225 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 7844 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 08:10:17,234 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 08:10:28,729 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.422 seconds (JVM running for 13.702)
+2023-04-01 08:12:00,189 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 17:32:35,499 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 26456 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 17:32:35,811 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 17:33:11,785 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 46.992 seconds (JVM running for 55.45)
+2023-04-01 17:33:12,112 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while sending reminder emails: could not initialize proxy [FinanceMe.PiDev.Enteties.Compte#6] - no Session
+2023-04-01 17:35:00,072 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 138 a été annulée avec succès.
+2023-04-01 17:35:00,078 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 139 a été annulée avec succès.
+2023-04-01 17:35:00,078 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 17:35:11,798 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while sending reminder emails: null
+2023-04-01 17:37:11,804 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while sending reminder emails: null
+2023-04-01 17:39:11,797 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while sending reminder emails: null
+2023-04-01 17:41:11,846 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while sending reminder emails: null
+2023-04-01 17:42:00,035 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 141 a été annulée avec succès.
+2023-04-01 17:42:00,053 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 143 a été annulée avec succès.
+2023-04-01 17:42:00,053 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 17:49:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 17:52:39,309 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 12308 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 17:52:39,317 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 17:58:05,550 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 19388 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 17:58:05,557 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 17:58:25,061 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 20.43 seconds (JVM running for 22.015)
+2023-04-01 17:59:23,680 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16252 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 17:59:23,686 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 17:59:35,660 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 13.032 seconds (JVM running for 14.315)
+2023-04-01 18:00:00,058 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 18:07:22,015 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 7936 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 18:07:22,021 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 18:07:31,387 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.115 seconds (JVM running for 11.361)
+2023-04-01 18:09:00,065 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 18:11:33,715 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 9916 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 18:11:33,721 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 18:11:45,564 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.661 seconds (JVM running for 14.341)
+2023-04-01 18:11:57,128 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 24672 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 18:11:57,134 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 18:12:06,660 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.268 seconds (JVM running for 11.522)
+2023-04-01 18:14:00,128 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 18:15:57,762 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 144
+2023-04-01 18:15:57,763 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 18:22:26,262 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: Mail server connection failed; nested exception is javax.mail.MessagingException: Could not convert socket to TLS;
+  nested exception is:
+	javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake. Failed messages: javax.mail.MessagingException: Could not convert socket to TLS;
+  nested exception is:
+	javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+2023-04-01 18:22:26,312 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 144 a été annulée avec succès.
+2023-04-01 18:22:26,312 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 18:24:00,014 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 18:27:00,033 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 18:28:00,046 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 146 a été annulée avec succès.
+2023-04-01 18:28:00,047 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 18:30:14,227 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: Failed messages: javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	java.net.SocketException: Connection or outbound has closed
+2023-04-01 18:33:29,279 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 147
+2023-04-01 18:33:29,279 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 18:35:00,032 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 147 a été annulée avec succès.
+2023-04-01 18:35:00,033 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 18:36:00,013 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 18:39:00,013 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 18:42:00,011 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-01 18:42:00,018 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 18:44:37,681 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 20152 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 18:44:37,687 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 18:44:48,300 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.451 seconds (JVM running for 13.034)
+2023-04-01 18:45:03,604 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 18:48:02,226 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 18:49:00,094 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-01 18:51:04,379 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-01 18:53:14,719 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 5932 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-01 18:53:14,724 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 18:53:26,116 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.215 seconds (JVM running for 13.461)
+2023-04-01 18:54:00,106 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 03:40:45,752 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 4156 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-02 03:40:45,802 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-02 03:41:04,090 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 20.271 seconds (JVM running for 22.853)
+2023-04-02 03:42:00,215 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 03:42:00,390 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 149 a été annulée avec succès.
+2023-04-02 03:42:00,397 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 151 a été annulée avec succès.
+2023-04-02 03:42:00,397 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 03:45:00,010 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 03:48:00,021 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 03:49:00,019 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 03:51:00,015 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 03:54:00,011 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 03:56:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 03:57:00,014 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:00:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:00:00,027 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:03:00,019 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:06:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:07:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:09:00,011 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:12:00,010 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:14:00,018 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:15:00,019 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:18:00,013 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:21:00,010 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:21:00,014 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:24:00,021 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:27:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:28:00,036 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:30:00,022 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 04:33:00,018 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 04:35:00,026 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 152 a été annulée avec succès.
+2023-04-02 04:35:00,031 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 153 a été annulée avec succès.
+2023-04-02 04:35:00,036 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 154 a été annulée avec succès.
+2023-04-02 04:35:00,036 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:36:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:39:00,016 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:42:00,019 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 04:42:00,024 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:45:00,017 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 04:48:00,026 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 04:49:00,030 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 156 a été annulée avec succès.
+2023-04-02 04:49:00,031 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:51:00,015 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 04:54:00,019 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 04:56:00,014 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 04:56:27,228 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 17960 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-02 04:56:27,233 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-02 04:56:41,752 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 15.975 seconds (JVM running for 18.097)
+2023-04-02 04:57:00,196 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: null
+2023-04-02 04:59:51,980 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 2928 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-02 04:59:51,986 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-02 05:00:03,384 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 12.403 seconds (JVM running for 13.896)
+2023-04-02 05:03:00,142 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: 
+2023-04-02 05:06:00,023 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: 
+2023-04-02 05:07:00,128 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 157 a été annulée avec succès.
+2023-04-02 05:07:00,136 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 158 a été annulée avec succès.
+2023-04-02 05:07:00,137 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 05:09:00,028 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: 
+2023-04-02 05:09:27,618 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18372 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-02 05:09:27,624 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-02 05:09:40,294 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 13.428 seconds (JVM running for 14.653)
+2023-04-02 05:10:00,177 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 159
+2023-04-02 05:10:00,178 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:12:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 159
+2023-04-02 05:12:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 161
+2023-04-02 05:12:00,021 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:14:00,027 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 159
+2023-04-02 05:14:00,028 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 161
+2023-04-02 05:14:00,028 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:14:00,083 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 159 a été annulée avec succès.
+2023-04-02 05:14:00,083 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 05:16:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 161
+2023-04-02 05:16:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:18:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 161
+2023-04-02 05:18:00,020 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:20:00,023 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 161
+2023-04-02 05:20:00,024 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:21:00,035 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 161 a été annulée avec succès.
+2023-04-02 05:21:00,035 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 05:22:00,015 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:24:00,011 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:26:00,009 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:28:00,037 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:28:00,050 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 05:42:56,041 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 19264 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-02 05:42:56,048 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-02 05:43:06,121 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.968 seconds (JVM running for 12.405)
+2023-04-02 05:44:00,079 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 163
+2023-04-02 05:44:00,107 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:46:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 163
+2023-04-02 05:46:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:47:08,943 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 14048 (C:\Users\zribi\Desktop\PiTrans\amen_transaction-master\target\classes started by zribi in C:\Users\zribi\Desktop\PiTrans\amen_transaction-master)
+2023-04-02 05:47:08,948 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-02 05:47:19,342 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.194 seconds (JVM running for 12.58)
+2023-04-02 05:48:00,044 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 163
+2023-04-02 05:48:00,045 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:49:00,118 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 163 a été annulée avec succès.
+2023-04-02 05:49:00,118 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-02 05:51:00,021 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 165
+2023-04-02 05:51:00,021 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:54:00,027 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 166
+2023-04-02 05:54:00,030 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Reminder email sent successfully for transaction with ID 168
+2023-04-02 05:54:00,030 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-02 05:56:00,022 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-03 06:12:22,924 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 1224 (C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah\target\classes started by zribi in C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah)
+2023-04-03 06:12:22,930 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-03 06:12:37,129 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 15.425 seconds (JVM running for 17.633)
+2023-04-03 06:14:00,127 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-03 06:15:00,018 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: 
+2023-04-03 06:18:00,024 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: 
+2023-04-03 06:21:00,026 [scheduling-1] ERROR F.PiDev.Services.TransactionService - An exception occurred while executing the pending transactions reminder email job: 
+2023-04-03 06:21:00,165 [scheduling-1] INFO  F.PiDev.Services.TransactionService - La transaction avec l'ID 179 a été annulée avec succès.
+2023-04-03 06:21:00,165 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-03 06:24:00,029 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 06:27:00,023 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 06:28:00,013 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-03 06:30:00,007 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 06:33:00,024 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 06:35:00,051 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-03 20:25:48,965 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18436 (C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah\target\classes started by zribi in C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah)
+2023-04-03 20:25:48,994 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-03 20:26:02,007 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 14.256 seconds (JVM running for 16.698)
+2023-04-03 20:26:59,274 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 16456 (C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah\target\classes started by zribi in C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah)
+2023-04-03 20:26:59,280 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-03 20:27:14,770 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 16.365 seconds (JVM running for 17.76)
+2023-04-03 20:28:00,184 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-03 20:29:59,988 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 20:32:12,561 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 7600 (C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah\target\classes started by zribi in C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah)
+2023-04-03 20:32:12,567 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-03 20:32:22,475 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.731 seconds (JVM running for 11.971)
+2023-04-03 20:32:37,340 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 15300 (C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah\target\classes started by zribi in C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah)
+2023-04-03 20:32:37,347 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-03 20:32:47,113 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 10.543 seconds (JVM running for 11.68)
+2023-04-03 20:33:00,115 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 20:35:00,017 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-03 20:35:59,968 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 20:38:59,972 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 20:41:59,925 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Les transactions expirées ont été vérifiées avec succès.
+2023-04-03 20:41:59,986 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 20:43:02,172 [main] INFO  FinanceMe.PiDev.PiDevApplication - Starting PiDevApplication using Java 1.8.0_291 on DESKTOP-ON1GM7T with PID 18252 (C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah\target\classes started by zribi in C:\Users\zribi\Desktop\mergeWithHamouda\amen_transaction-amenallah)
+2023-04-03 20:43:02,177 [main] INFO  FinanceMe.PiDev.PiDevApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-03 20:43:12,515 [main] INFO  FinanceMe.PiDev.PiDevApplication - Started PiDevApplication in 11.085 seconds (JVM running for 12.349)
+2023-04-03 20:45:00,224 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
+2023-04-03 20:48:00,004 [scheduling-1] INFO  F.PiDev.Services.TransactionService - Pending transactions reminder email job executed successfully.
