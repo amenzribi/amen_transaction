@@ -1,0 +1,14 @@
+/* styles.css or styles.scss */
+::ng-deep .sidebar-mauve {
+    background-color: #8b008b; /* Mauve color */
+}
+
+::ng-deep .sidebar-mauve .nav li a {
+    color: #ffffff; /* Text color for sidebar links */
+}
+
+::ng-deep .sidebar-mauve .nav li.active a,
+::ng-deep .sidebar-mauve .nav li.active a:hover,
+::ng-deep .sidebar-mauve .nav li.active a:focus {
+    background-color: #9932cc; /* Darker mauve color for active link */
+}

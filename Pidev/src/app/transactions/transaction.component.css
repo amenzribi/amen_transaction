@@ -1,0 +1,11 @@
+/* styles.css or styles.scss */
+::ng-deep .btn-mauve {
+    background-color: #8b008b; /* Mauve color */
+    border-color: #8b008b;
+    color: #ffffff;
+}
+
+::ng-deep .btn-mauve:hover {
+    background-color: #9932cc; /* Darker mauve color on hover */
+    border-color: #9932cc;
+}

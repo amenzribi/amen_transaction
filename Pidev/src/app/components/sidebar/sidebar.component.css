@@ -1,0 +1,26 @@
+/* sidebar.component.css or sidebar.component.scss */
+/* sidebar.component.css or sidebar.component.scss */
+.sidebar-wrapper {
+    background-color: #8b008b; /* Mauve color */
+  }
+  
+  /* Adjust other styles as needed */
+/* styles.css or styles.scss */
+::ng-deep .sidebar-wrapper {
+    background-color: #8b008b; /* Mauve color */
+  }
+  
+  /* Adjust other styles as needed */
+    /* sidebar.component.css or sidebar.component.scss */
+.logo {
+    background-color: #8b008b; /* Mauve color */
+  }
+  
+  /* Adjust other styles as needed */
+/* styles.css or styles.scss */
+::ng-deep .logo {
+    background-color: #8b008b; /* Mauve color */
+  }
+  
+  /* Adjust other styles as needed */
+    

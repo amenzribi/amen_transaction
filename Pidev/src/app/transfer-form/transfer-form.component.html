@@ -1,0 +1,141 @@
+<div class="panel-header panel-header-sm"> 
+</div>
+<div class="main-content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="title">transfer Operation</h5>
+          <p class="category">security is our priority</p>
+        </div>
+
+
+
+
+        <!--  
+        <section>
+          <div class="login-box">
+            <p>Transfer</p>
+        <form (ngSubmit)="onSubmit()">
+          <div class="user-box">
+            
+            <input type="text" name="compteDestinataire" [(ngModel)]="compteDestinataire" required>
+            <label >Compte Destinataire</label>
+          </div>
+          <div class="user-box">
+            
+            <input type="text" name="compteEmetteur" [(ngModel)]="compteEmetteur" required>
+            <label >Compte Emetteur</label>
+          </div>
+          <div class="user-box">
+            
+            <input type="text" name="montant" [(ngModel)]="montant" required>
+            <label>Montant</label>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Submit</button>
+        
+        </form>
+        </div>
+      </section>
+
+
+
+    -->
+
+
+
+
+    <section>
+      <div class="login-box">
+        <p>Transfer</p>
+        <form (ngSubmit)="onSubmit()" #transferForm="ngForm">
+          <div class="user-box">
+            <input type="number" name="compteDestinataire" [(ngModel)]="compteDestinataire" required>
+            <label>Compte Destinataire</label>
+            <div class="error-message" *ngIf="transferForm.controls.compteDestinataire.errors && transferForm.controls.compteDestinataire.touched">
+              <div *ngIf="transferForm.controls.compteDestinataire.errors.required">
+                Please enter a compte destinataire.
+              </div>
+              <div *ngIf="compteDestinataireError">
+                Please enter a valid compte destinataire.
+              </div>
+            </div>
+          </div>
+          <div class="user-box">
+            <input type="number" name="compteEmetteur" [(ngModel)]="compteEmetteur" required>
+            <label>Compte Emetteur</label>
+            <div class="error-message" *ngIf="transferForm.controls.compteEmetteur.errors && transferForm.controls.compteEmetteur.touched">
+              <div *ngIf="transferForm.controls.compteEmetteur.errors.required">
+                Please enter a compte emetteur.
+              </div>
+              <div *ngIf="compteEmetteurError">
+                Please enter a valid compte emetteur.
+              </div>
+            </div>
+          </div>
+          <div class="user-box">
+            <input type="number" name="montant" [(ngModel)]="montant" required>
+            <label>Montant</label>
+            <div class="error-message" *ngIf="transferForm.controls.montant.errors && transferForm.controls.montant.touched">
+              <div *ngIf="transferForm.controls.montant.errors.required">
+                Please enter a montant.
+              </div>
+              <div *ngIf="montantError">
+                Please enter a valid montant.
+              </div>
+            </div>
+          </div>
+          <div *ngIf="showSuccessMessage" class="success-message">
+            Transfer success! Please check your email.
+          </div>
+          <button class="btn btn-mauve btn-block" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    
+        <div class="card-body all-icons">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                 
+                  <div class="places-buttons">
+                    <div class="row">
+                      <div class="col-md-6 ml-auto mr-auto text-center">
+                        <h4 class="card-title">
+                          Time is of the essence!
+                          <p class="category"> Remember to validate your transfer within 24 hours, or your transaction may be cancelled by the bank.</p>
+                        </h4>
+                        
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-lg-8 ml-auto mr-auto">
+                        <div class="row justify-content-center">
+                          <div class="col-md-4">
+                            <!--   <button class="btn btn-primary btn-block" (click)="showNotification('bottom','left')">VALIDATE YOUR DEPOSIT</button>  -->
+                            <button class="btn btn-mauve btn-block"   routerLink="/validate-trans-form" >VALIDATE YOUR TRANSFERT</button>
+                          </div>
+                          
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+

@@ -1,0 +1,253 @@
+
+<!-- 
+  <div class="panel-header panel-header-sm"> 
+</div>
+<div class="main-content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="title">Deposit Operation</h5>
+          <p class="category">security is our priority</p>
+        </div>
+
+
+        <section>
+          
+          <div class="login-box">
+            <p>Deposit</p>
+            <form (ngSubmit)="onSubmit()">
+              <div class="user-box">
+                <input type="number" name="compteDestinataire" [(ngModel)]="compteDestinataire" required>
+                <label>Compte Destinataire</label>
+                <div class="error-message" *ngIf="compteDestinataireError">
+                  Please enter a valid compte destinataire.
+                </div>
+              </div>
+              <div class="user-box">
+                <input type="number" name="montant" [(ngModel)]="montant" required>
+                <label>Montant</label>
+                <div class="error-message" *ngIf="montantError">
+                  Please enter a valid montant.
+                </div>
+              </div>
+              <button class="btn btn-primary btn-block" type="submit">Submit</button>
+            </form>
+          </div>
+          
+         
+          
+        </section>
+
+        <div class="card-body all-icons">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                 
+                  <div class="places-buttons">
+                    <div class="row">
+                      <div class="col-md-6 ml-auto mr-auto text-center">
+                        <h4 class="card-title">
+                          Time is of the essence!
+                          <p class="category"> Remember to validate your deposit within 24 hours, or your transaction may be cancelled by the bank.</p>
+                        </h4>
+                        
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-lg-8 ml-auto mr-auto">
+                        <div class="row justify-content-center">
+                          <div class="col-md-4">
+
+                            <button class="btn btn-primary btn-block"   routerLink="/validate-trans-form" >VALIDATE YOUR DEPOSIT</button>
+                          </div>
+                          
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+-->
+
+<div class="panel-header panel-header-sm"> 
+</div>
+<div class="main-content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="title">Deposit Operation</h5>
+          <p class="category">security is our priority</p>
+        </div>
+
+        <section>
+          <div class="login-box">
+            <p>Deposit</p>
+            <form (ngSubmit)="onSubmit()" #depositForm="ngForm">
+              <div class="user-box">
+                <input type="number" name="compteDestinataire" [(ngModel)]="compteDestinataire" required min="0">
+                <label>Compte Destinataire</label>
+                <div class="error-message" *ngIf="depositForm.controls.compteDestinataire.errors && depositForm.controls.compteDestinataire.touched">
+                  <div *ngIf="depositForm.controls.compteDestinataire.errors.required">
+                    Please enter a compte destinataire.
+                  </div>
+                  <div *ngIf="depositForm.controls.compteDestinataire.errors.min">
+                    Please enter a positive compte destinataire.
+                  </div>
+                </div>
+              </div>
+              <div class="user-box">
+                <input type="number" name="montant" [(ngModel)]="montant" required min="10">
+                <label>Montant</label>
+                <div class="error-message" *ngIf="depositForm.controls.montant.errors && depositForm.controls.montant.touched">
+                  <div *ngIf="depositForm.controls.montant.errors.required">
+                    Please enter a montant.
+                  </div>
+                  <div *ngIf="depositForm.controls.montant.errors.min.required">
+                    Please enter a positive montant.
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-mauve btn-block" type="submit">Submit</button>
+            </form>
+          </div>
+        </section>
+        
+       <!--      <div class="alert alert-success" role="alert" *ngIf="showSuccessMessage">
+        Deposit success! Please check your email and validate deposit below.
+      </div> -->
+  
+        <div class="card-body all-icons">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="places-buttons">
+                    <div class="row">
+                      <div class="col-md-6 ml-auto mr-auto text-center">
+                        <h4 class="card-title">
+                          Time is of the essence!
+                          <p class="category"> Remember to validate your deposit within 24 hours, or your transaction may be cancelled by the bank.</p>
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-8 ml-auto mr-auto">
+                        <div class="row justify-content-center">
+                          <div class="col-md-4">
+                            <button class="btn btn-mauve btn-block" routerLink="/validate-trans-form" >VALIDATE YOUR DEPOSIT</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  <div class="login-box">
+            <p>Deposit</p>
+            <form (ngSubmit)="onSubmit()">
+              <div class="user-box">
+                <input type="text" name="compteDestinataire" [(ngModel)]="compteDestinataire" required>
+                <label>Compte Destinataire</label>
+              </div>
+              <div class="user-box">
+                <input type="text" name="montant" [(ngModel)]="montant" required>
+                <label>Montant</label>
+              </div>
+              <button class="btn btn-primary btn-block" type="submit">Submit</button>
+            </form>
+          </div> -->
+
+
+<!--  
+        <form (ngSubmit)="onSubmit()">
+          <div>
+            <label for="compteDestinataire">Compte Destinataire:</label>
+            <input type="text" name="compteDestinataire" [(ngModel)]="compteDestinataire" required>
+          </div>
+          <div>
+            <label for="montant">Montant:</label>
+            <input type="text" name="montant" [(ngModel)]="montant" required>
+          </div>
+          <button type="submit">Depot</button>
+        </form>-->
+
